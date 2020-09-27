@@ -1,0 +1,63 @@
+.subheader {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #232f3e;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -1;
+}
+.subheader_locationIcon {
+  margin-left: 20px;
+  color: #fff;
+}
+.subheader_location {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  color: #fff;
+  margin-right: 57px;
+  cursor: pointer;
+}
+.subheader_deliver {
+  font-size: 13px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+  color: #ccc;
+}
+.subheader_locationName {
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 800;
+  padding-bottom: 5px;
+}
+.subheader_options {
+  display: flex;
+  justify-content: space-evenly;
+}
+.subheader_optionOne {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.subheader_optionTwo {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.subheader_optionThree {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.subheader_optionFour {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}

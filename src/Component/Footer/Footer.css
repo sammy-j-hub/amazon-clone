@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  align-content: center;
+  background-color: #131921;
+  padding-bottom: 20px;
+  position: sticky;
+}
+.footer__logo {
+  margin: 30px auto;
+  object-fit: contain;
+  width: 150px;
+}
+.footer_bar {
+  display: flex;
+  justify-content: center;
+}
+.footer_bar_career {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 800;
+  color: hsla(0, 0%, 100%, 0.747);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.footer_bar_blog {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 800;
+  color: hsla(0, 0%, 100%, 0.747);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.footer_bar_contact {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 800;
+  color: hsla(0, 0%, 100%, 0.747);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.footer_bar_help {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 800;
+  color: hsla(0, 0%, 100%, 0.747);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.footer > p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.747);
+  text-align: center;
+}
